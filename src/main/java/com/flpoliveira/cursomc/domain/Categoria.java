@@ -26,13 +26,12 @@ public class Categoria implements Serializable
 	@GeneratedValue(strategy=GenerationType.IDENTITY) // Funciona com h2 e alguns outros bancos, essa forma de geracao de chave primaria
 	private Integer id;
 	
-	
+	private String nome;
 	@ManyToMany(mappedBy="categorias")
 	private List<Produto> produtos =  new ArrayList<>();
 	
 	
 
-	private String nome;
 	
 	public Categoria()
 	{
