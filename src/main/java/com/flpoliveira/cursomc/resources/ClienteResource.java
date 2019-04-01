@@ -20,10 +20,8 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import com.flpoliveira.cursomc.domain.Cliente;
-import com.flpoliveira.cursomc.domain.Cliente;
 import com.flpoliveira.cursomc.dto.ClienteDTO;
 import com.flpoliveira.cursomc.dto.ClienteNewDTO;
-import com.flpoliveira.cursomc.dto.ClienteDTO;
 import com.flpoliveira.cursomc.services.ClienteService;
 
 @RestController

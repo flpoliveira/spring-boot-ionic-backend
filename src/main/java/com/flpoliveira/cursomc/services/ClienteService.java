@@ -17,7 +17,6 @@ import com.flpoliveira.cursomc.domain.Endereco;
 import com.flpoliveira.cursomc.domain.enums.TipoCliente;
 import com.flpoliveira.cursomc.dto.ClienteDTO;
 import com.flpoliveira.cursomc.dto.ClienteNewDTO;
-import com.flpoliveira.cursomc.repositories.CidadeRepository;
 import com.flpoliveira.cursomc.repositories.ClienteRepository;
 import com.flpoliveira.cursomc.repositories.EnderecoRepository;
 import com.flpoliveira.cursomc.services.exceptions.DataIntegrityException;
